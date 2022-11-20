@@ -116,7 +116,7 @@ textarea {
   letter-spacing: 0.03em;
 }
 
-.logo__black {
+.logo__text {
   color: var(--logo-color);
 }
 
@@ -156,11 +156,11 @@ textarea {
   color: var(--accent-color);
 }
 
-.current {
+.site-nav__link--current {
   position: relative;
 }
 
-.current::after {
+.site-nav__link--current::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -794,7 +794,7 @@ textarea {
   width: 231px;
 }
 
-.logo__white {
+.logo__text--inverse {
   color: var(--hero-color);
 }
 
