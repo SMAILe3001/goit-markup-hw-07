@@ -1,0 +1,29 @@
+.feature-list {
+    display: flex;
+    gap: 30px;
+
+    &__item {
+            flex-basis: calc((100% - 90px) / 4);
+        }
+    
+    &__content {
+        display: flex;
+        background-color: $portfolio-button;
+        justify-content: center;
+        border-radius: 4px;
+        padding: 25px 0px;
+        margin-bottom: 30px;
+    }
+
+    &__icon {}
+
+    &__title {
+        color: $primary-text-color;
+        margin-bottom: 10px;
+
+        font-size: 14px;
+        line-height: 1.1721;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+}

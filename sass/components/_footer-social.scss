@@ -1,0 +1,42 @@
+.footer-social {
+    margin-left: 70px;
+
+    &__title {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+        color: $hero-color;
+    }
+
+    &__list {
+        display: flex;
+        gap: 10px;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:$hero-color;
+        fill: currentColor;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+
+        background: $footer-social-link;
+
+        transition-property: background;
+        transition-duration: 250ms;
+        transition-timing-function:$timing-animation;
+    }
+
+    &__icon {}
+
+    &__link:hover,
+    &__link:focus {
+        background: $accent-color;
+    }
+}

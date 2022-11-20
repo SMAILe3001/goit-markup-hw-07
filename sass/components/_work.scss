@@ -1,0 +1,32 @@
+.work-list {
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+
+    &__item {
+        flex-basis: calc((100% - 60px) / 3);
+    }
+
+    &__label {
+        position: relative;
+    }
+
+    &__img {}
+
+    &__text {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: $label-text-background;
+
+        font-size: 14px;
+        line-height: 1.1429;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+        color: $hero-color;
+        padding: 27px 0px;
+    }
+}
+
