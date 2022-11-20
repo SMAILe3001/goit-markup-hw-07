@@ -152,7 +152,7 @@ textarea {
 .site-nav__link:focus,
 .adress-nav .link:hover,
 .adress-nav .link:focus,
-.current {
+.site-nav__link--current {
   color: var(--accent-color);
 }
 
@@ -457,11 +457,14 @@ textarea {
 
 /* Секції */
 
-.section__indent-top {
+.section {  
+}
+
+.section--indent-top {
   padding-top: 94px;
 }
 
-.section__indent-botton {
+.section--indent-botton {
   padding-bottom: 94px;
 }
 
@@ -474,22 +477,22 @@ textarea {
   letter-spacing: 0.03em;
 }
 
-.section__bagraund {
+.section--bagraund {
   background: var(--portfolio-button);
 }
 
 /* Особливості */
 
-.feature__list {
+.feature-list {
   display: flex;
   gap: 30px;
 }
 
-.feature__item {
+.feature-list__item {
   flex-basis: calc((100% - 90px) / 4);
 }
 
-.feature__content {
+.feature-list__content {
   display: flex;
   background-color: var(--portfolio-button);
   justify-content: center;
@@ -498,10 +501,10 @@ textarea {
   margin-bottom: 30px;
 }
 
-.feature__icon {
+.feature-list__icon {
 }
 
-.feature__title {
+.feature-list__title {
   color: var(--primary-text-color);
   margin-bottom: 10px;
 
@@ -513,24 +516,24 @@ textarea {
 
 /* чим ми займаємося*/
 
-.work__list {
+.work-list {
   display: flex;
   margin-top: 50px;
   gap: 30px;
 }
 
-.work__item {
+.work-list__item {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.work__label {
+.work-list__label {
   position: relative;
 }
 
-.work__img {
+.work-list__img {
 }
 
-.work__text {
+.work-list__text {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -910,12 +913,12 @@ textarea {
   border: 1px solid var(--accent-color);
 }
 
-.buttom__text {
+.button__text {
   display: flex;
   align-items: center;
 }
 
-.buttom__icon {
+.button__icon {
   margin-left: 10px;
   fill: var(--hero-color);
 }
