@@ -1,0 +1,23 @@
+.section {
+
+    &--indent-top {
+        padding-top: 94px;
+    }
+
+    &--indent-botton {
+        padding-bottom: 94px;
+    }
+
+    &__title {
+        color: $primary-text-color;
+
+        font-size: 36px;
+        line-height: 1.1667;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+    &--bagraund {
+        background: var(--portfolio-button);
+    }
+}
