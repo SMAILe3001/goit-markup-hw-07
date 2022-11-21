@@ -2,13 +2,13 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background: $hero-fon;
+}
 
-    &-container {
-        display: flex;
-        align-items: baseline;
-    }
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
 
-    &-contact {
-        width: 231px;
-    }
+.footer-contact {
+    width: 231px;
 }

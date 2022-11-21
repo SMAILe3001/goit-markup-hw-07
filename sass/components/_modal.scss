@@ -9,36 +9,36 @@
 
     opacity: 1;
     transition: opacity 250ms $timing-animation;
+}
 
-    &__window {
-        position: absolute;
-        width: 528px;
-        min-height: 581px;
-        top: 50%;
-        left: 50%;
-        padding: 40px 40px;
+.modal__window {
+    position: absolute;
+    width: 528px;
+    min-height: 581px;
+    top: 50%;
+    left: 50%;
+    padding: 40px 40px;
 
-        background: $hero-color;
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-            0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 4px;
+    background: $hero-color;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
 
-        transform: translate(-50%, -50%) scale(1) perspective(400px) rotateX(0deg);
-        transition: transform 250ms $timing-animation;
-    }
+    transform: translate(-50%, -50%) scale(1) perspective(400px) rotateX(0deg);
+    transition: transform 250ms $timing-animation;
+}
 
-    &.is-hidden &__window {
-        transform: translate(-50%, -50%) scale(0.3) perspective(400px) rotateX(60deg);
-    }
+.modal.is-hidden .modal__window {
+    transform: translate(-50%, -50%) scale(0.3) perspective(400px) rotateX(60deg);
+}
 
-    &__title {
-        margin-bottom: 12px;
-        font-size: 20px;
-        line-height: 1.15;
-        letter-spacing: 0.03em;
+.modal__title {
+    margin-bottom: 12px;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
 
-        color: $primary-text-color;
-    }
+    color: $primary-text-color;
 }
 
 .button-modal-close {
@@ -57,14 +57,14 @@
 
     transition: color 250ms $timing-animation;
 
-    &__icon {
-        fill: currentColor;
-    }
-
     &:hover,
     &:focus {
         color: $accent-color;
     }
+}
+
+.button-modal-close__icon {
+    fill: currentColor;
 }
 
 .is-hidden {

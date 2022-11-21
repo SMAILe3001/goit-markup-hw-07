@@ -6,12 +6,12 @@
     font-size: 26px;
     line-height: 1.1923;
     letter-spacing: 0.03em;
+}
 
-    &__text {
-        color: $logo-color;
-    }
+.logo__text {
+    color: $logo-color;
+}
 
-    &__text--inverse {
-        color: $hero-color;
-    }
+.logo__text--inverse {
+    color: $hero-color;
 }

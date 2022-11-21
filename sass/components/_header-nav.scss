@@ -5,40 +5,39 @@
 
 .site-nav {
     margin-left: 93px;
-    &__list {
-        display: flex;
-        gap: 50px;
-    }
+}
 
-    &__item {}
+.site-nav__list {
+    display: flex;
+    gap: 50px;
+}
 
-    &__link {
-        display: block;
-        padding-top: 32px;
-        padding-bottom: 32px;
-        color: $primary-text-color;
+.site-nav__link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: $primary-text-color;
 
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.1429;
-        letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1429;
+    letter-spacing: 0.02em;
 
-        transition-property: color;
-        transition-duration: 250ms;
-        transition-timing-function: $timing-animation;
-    }
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: $timing-animation;
 
-    &__link:hover,
-    &__link:focus,
-    &__link--current {
+    &:hover,
+    &:focus {
         color: $accent-color;
     }
+}
 
-    &__link--current {
-        position: relative;
-    }
+.site-nav__link--current {
+    position: relative;
+    color: $accent-color;
 
-    &__link--current::after {
+    &::after {
         content: '';
         position: absolute;
         width: 100%;

@@ -1,23 +1,20 @@
-.section {
+.section__title {
+    color: $primary-text-color;
 
-    &--indent-top {
-        padding-top: 94px;
-    }
+    font-size: 36px;
+    line-height: 1.1667;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
-    &--indent-botton {
-        padding-bottom: 94px;
-    }
+.section--indent-top {
+    padding-top: 94px;
+}
 
-    &__title {
-        color: $primary-text-color;
+.section--indent-botton {
+    padding-bottom: 94px;
+}
 
-        font-size: 36px;
-        line-height: 1.1667;
-        text-align: center;
-        letter-spacing: 0.03em;
-    }
-
-    &--bagraund {
-        background: var(--portfolio-button);
-    }
+.section--bagraund {
+    background: $portfolio-button;
 }
