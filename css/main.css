@@ -541,6 +541,7 @@ textarea {
 .user-list__desc {
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .social-list {
@@ -550,7 +551,6 @@ textarea {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 10px;
   gap: 10px;
 }
 .social-list__link {
